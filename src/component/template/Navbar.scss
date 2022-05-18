@@ -1,0 +1,74 @@
+$pageHeight:50px;
+$widthPageSize: 100vw;
+.content-header{
+  height: $pageHeight;
+  width:$widthPageSize;
+
+}
+
+$bgcolor :blueviolet;
+$displayForm: flex;
+
+
+
+
+
+.homepage-handle{
+  flex-direction: row;
+  background-color:$bgcolor;
+  display: $displayForm;
+
+}
+$spacelength:2%;
+$textcolor:white;
+.homepage-handle h1{
+  margin-left:$spacelength;
+  color:$textcolor;
+  font-size:120%;
+  margin-top:40px;
+  width: 8%;
+
+}
+
+$heightSize: 20%;
+$paddingTop:10px;
+$paddingBottom:10px;
+.search-label{
+  border-radius: 1em;
+  border: none;
+  height: $heightSize;
+  padding-top:$paddingTop;
+  padding-bottom:$paddingBottom;
+
+}
+$marginLeftSize:1.5em;
+$marginBottomSize:15px;
+$colorValue:white;
+.search-label p{
+  margin-left: $marginLeftSize;
+  margin-bottom: $marginBottomSize;
+  color: $colorValue;
+
+}
+$imageCurver:90%;
+.image-section{
+  border-radius: $imageCurver;
+}
+$imageBgcolor:black;
+$imageHeight:30px;
+$imageWidth:30px;
+$imageMarginTop:2em;
+.image-section img{
+  height:$imageHeight;
+  width:$imageWidth;
+  background-color:$imageBgcolor;
+  margin-top:$imageMarginTop;
+  border-radius: 100%;
+}
+
+
+
+
+
+
+
