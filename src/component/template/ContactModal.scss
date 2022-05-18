@@ -1,0 +1,64 @@
+
+$heightSize:25em;
+.content-header{
+    height:$heightSize;
+    width:50%;
+    background-color:aqua;
+    justify-content:center;
+}
+$displayset:flex;
+$alignItems:baseline;
+$justifyContent:space-around;
+.first-field{
+    display:$displayset;
+    align-items:$alignItems;
+    justify-content:$justifyContent;  
+}
+$heightSize:30px;
+.first-field input{
+    height:$heightSize;
+}
+.second-field input{
+    height:30px;
+}
+.second-field{
+    display: $displayset;
+    align-items:$alignItems;
+    justify-content:space-evenly;
+    margin-top:2em;
+    // margin-left: 9.5em;
+    
+}
+.third-field input{
+    height:$heightSize;
+}
+
+.third-field{
+    display: $displayset;
+    // align-items:$alignItems;
+    // justify-content:space-evenly;
+    margin-top:2em;
+}
+.third-field input{
+    margin-left:14em;
+}
+.fourth-field input{
+    height:$heightSize;
+}
+.fourth-field{
+    display:$displayset;
+    align-items:$alignItems;
+    // justify-content:space-evenly;
+    // margin-left:2em;
+    margin-top:2em;
+}
+.fifth-field{
+    display:$displayset;
+    align-items:$alignItems;
+    // justify-content:space-evenly;
+    margin-top:2em;
+}
+.fifth-field input{
+    height:$heightSize;
+}
+

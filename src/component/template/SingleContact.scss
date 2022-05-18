@@ -1,0 +1,41 @@
+.header-container{
+  display: flex;
+
+  //width: 80%;
+  height: 9px;
+
+}
+.head-section{
+  width: 83%;
+  height: 90vh;
+}
+.head-section h5{
+  margin-top: 50em;
+}
+.header-container img{
+  height: 30px;
+  width:30px;
+  margin-top: 11.7em;
+  background-color: black;
+  border-radius: 100%;
+}
+.icon-section{
+   margin-top:90px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.icon-section p{
+  margin-right: 30px;
+  margin-left: 20em;
+
+}
+.detail-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.detail-section p{
+   margin-top:13em;
+  margin-left: 50px;
+}

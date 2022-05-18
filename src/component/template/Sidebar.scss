@@ -1,0 +1,45 @@
+
+
+$heightSize:100%;
+$backgroundColor:aqua;
+$heightSize:90vh;
+$borderRightSet:0.1px solid gray;
+.sidebar-container{
+  height: $heightSize;
+  width:17.8%;
+  border-right: $borderRightSet;
+
+}
+$displayForm:flex;
+$alignSet:center;
+$borderBottom:0.1px solid gray;
+$marginLeft:5.1em;
+.contact-section{
+  display:$displayForm;
+  align-items: $alignSet;
+  border-bottom:$borderBottom;
+  padding-left:$marginLeft;
+
+}
+$marginLeftSet:20px;
+.contact-section h3{
+  margin-left: $marginLeftSet;
+}
+
+
+.setting-section{
+  display: $displayForm;
+  align-items: $alignSet;
+  margin-left:$marginLeft;
+}
+.setting-section h5{
+  margin-left:$marginLeftSet;
+}
+.help-section{
+  display: $displayForm;
+  align-items: $alignSet;
+  margin-left:$marginLeft;
+}
+.help-section h5{
+  margin-left: $marginLeftSet;
+}

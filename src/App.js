@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+
+import Navbar from "./component/homePage/Navbar";
+import Sidebar from './component/homePage/Sidebar';
+import './component/template/Sidebar.scss';
+import ContactHome from "./component/ContactHome";
+import './component/template/ContactHome.scss';
+import './component/template/App.scss';
+import './component/template/ContactModal.scss';
+import ContactModal from "./component/homePage/ContactModal";
+import AddContact from "./component/homePage/AddContact";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Navbar />
+      <div className="app">
+        <Sidebar/>
+        <ContactHome/>
+      </div> */}
+{/* <ContactModal/> */}
+    <AddContact/>
     </div>
   );
 }
