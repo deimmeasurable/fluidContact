@@ -1,16 +1,29 @@
-
-$heightSize:25em;
+.first-layer{
+    display:flex;
+    align-items: baseline;
+    justify-content:space-between;
+}
+$heightSize:30em;
+$backgroundColor:white;
+$borderSize:0.1px solid gray;
+$marginLeftSize:30%;
+$marginTop:10%;
 .content-header{
     height:$heightSize;
     width:50%;
-    background-color:aqua;
-    justify-content:center;
+   background-color:$backgroundColor;
+    border:$borderSize;
+    position: absolute;
+    margin-left:$marginLeftSize;
+    margin-top:$marginTop;
+    
 }
-$displayset:flex;
+
+$displaySet:flex;
 $alignItems:baseline;
 $justifyContent:space-around;
 .first-field{
-    display:$displayset;
+    display:$displaySet;
     align-items:$alignItems;
     justify-content:$justifyContent;  
 }
@@ -19,10 +32,11 @@ $heightSize:30px;
     height:$heightSize;
 }
 .second-field input{
-    height:30px;
+    height:$heightSize;
 }
+$displaysetSize:flex;
 .second-field{
-    display: $displayset;
+    display: $displaysetSize;
     align-items:$alignItems;
     justify-content:space-evenly;
     margin-top:2em;
@@ -34,31 +48,35 @@ $heightSize:30px;
 }
 
 .third-field{
-    display: $displayset;
-    // align-items:$alignItems;
-    // justify-content:space-evenly;
+    display:$displaysetSize;
     margin-top:2em;
 }
 .third-field input{
     margin-left:14em;
+
 }
 .fourth-field input{
     height:$heightSize;
 }
+
 .fourth-field{
-    display:$displayset;
+    display:$displaysetSize;
     align-items:$alignItems;
-    // justify-content:space-evenly;
-    // margin-left:2em;
+    
     margin-top:2em;
 }
 .fifth-field{
-    display:$displayset;
+    display:$displaysetSize;
     align-items:$alignItems;
-    // justify-content:space-evenly;
     margin-top:2em;
 }
 .fifth-field input{
     height:$heightSize;
 }
-
+.last-column {
+    margin-top:2em;
+    display:flex;
+    align-content:baseline;
+    justify-content:flex-end;
+    
+}

@@ -26,7 +26,7 @@ const Navbar = () => {
         setSearch({...search,[e.target.value]:e.target.value})
     }
     return (
-        // <div className="content-header">
+        
         <div className="homepage-handle">
 
             <FaAlignJustify style={{color: 'white',marginLeft:'5em',marginTop:'2.5em'}}/>
@@ -43,7 +43,7 @@ const Navbar = () => {
             <img src={imageUrl}/>
             </div>
             </div>
-        // </div>
+       
 
   )
 }

@@ -1,6 +1,6 @@
 
 
-
+import React,{useState} from 'react';
 import Navbar from "./component/homePage/Navbar";
 import Sidebar from './component/homePage/Sidebar';
 import './component/template/Sidebar.scss';
@@ -12,17 +12,28 @@ import ContactModal from "./component/homePage/ContactModal";
 import AddContact from "./component/homePage/AddContact";
 
 function App() {
+  const[isDisplay,setIsDisplay] = useState (false)
 
+  const starredContact = [1, 2, 3, 4, 5, 6];
+
+
+  const handleShow=()=>{
+    setIsDisplay(true)
+  }
   return (
     <div>
-      {/* <Navbar />
+        <Navbar />
       <div className="app">
+        {/* {starredContact.map(data => { return <div className="hello">{data}</div>})} */}
         <Sidebar/>
         <ContactHome/>
-      </div> */}
-{/* <ContactModal/> */}
-    <AddContact/>
+      
+      {isDisplay && <ContactModal/>}
+    <AddContact show={handleShow}/>
     </div>
+    </div>
+
+  
   );
 }
 
